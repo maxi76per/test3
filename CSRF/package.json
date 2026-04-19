@@ -1,0 +1,16 @@
+{
+  "name": "csrf-lab",
+  "version": "1.0.0",
+  "description": "CSRF Vulnerability Lab",
+  "main": "app-vulnerable.js",
+  "scripts": {
+    "start-vuln": "node app-vulnerable.js",
+    "start-prot": "node app-protected.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
